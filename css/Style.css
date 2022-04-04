@@ -1,0 +1,132 @@
+html{
+  box-sizing: border-box;
+}
+
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+
+@font-face {
+  font-family: Minecraft Rus;
+  src: local("Minecraft Rus"), url(minecraft.ttf);
+}
+@font-face {
+  font-family: Minecraft Title;
+  src: local("Minecraft Title"), url(8303.ttf);
+}
+body {
+  background-image: url(1.jpg);
+  color: white;
+  font-family: Minecraft Rus;
+  font-style: italic;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 15px
+}
+header, footer {
+  background-image: url(11.jpg);
+  color: black;
+  height: 200px;
+}
+main {
+}
+.vip {
+  background-color: brown;
+  color: white;
+}
+header {
+  font-family: Minecraft Title
+}
+.Первая_часть {
+  background-image: url(22.jpg);
+  background-size: cover;
+}
+.Вторая_часть {
+  background-image: url(2.jpg);
+  background-size: cover;
+}
+.text {
+  color: white;
+}
+
+.d1 {
+  overflow: hidden;
+  width:460px;
+  height: 300px;
+  border-radius: 20%;
+}
+
+.p1 {
+  font-weight: bolder;
+  position: absolute;
+  top: 650px;
+}
+
+.d2 {
+  overflow: hidden;
+  width:450px;
+  height: 300px;
+  border-radius: 20%;
+}
+
+.p2 {
+  font-weight: bolder;
+  position: absolute;
+  top: 950px;
+}
+
+.d3 {
+  overflow: hidden;
+  width:460px;
+  height: 300px;
+  border-radius: 20%;
+}
+
+.p3 {
+  font-weight: bolder;
+  position: absolute;
+  top: 1250px;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding-left: 20px;
+  margin-top: 25px;
+}
+
+li {
+  float: left;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 0px 10px;
+  font-family: Minecraft Title;
+  line-height: 50px;
+  display: block;
+  border-right: 2px solid white;
+}
+
+.u1 {
+  position: absolute;
+  top: 25px;
+  display: none;
+}
+
+li:hover > .u1 {
+  display: block;
+  width: 250px;
+}
+
+li:hover > .u1 > .l1 {
+  float: none;
+}
+
+.img1 {
+  width: 350px;
+  position: absolute;
+  left: 750px;
+}
